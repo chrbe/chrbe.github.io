@@ -1,6 +1,6 @@
 # Cycle Sync Calculator
 
-#### Video Demo:  <URL HERE>
+#### Video Demo:  https://youtu.be/77Deu0TY0cs
 #### Description:
 
 This website serves to inform women the phase of the menstrual cycle which they are presently in.
