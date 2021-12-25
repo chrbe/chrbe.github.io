@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <h1>
+        When was the start of your period?
+    </h1>
+    <h5>
+        <p>
+            The hormonal cycle affects productivity, especially affecting women due to the menstrual cycle, which is an effect of hormonal fluctuations.
+            In order for women to lead their best, most productive self, women can match their cycle with lifestyle choices that benefit and support them the most.
+            This is called "cycle syncing".
+        </p>
+        <p>
+            To start, tell us most recently, when was your last period? And we will calculate which phase you are at and the best activity to undertake during this phase.
+        </p>
+    </h5>
+    <form action="/result" method="post">
+        <p>
+           <input autocomplete="off" autofocus name="item" class="btn btn-lg btn-default" placeholder="date" type="date">
+        </p>
+            <div class="lead" style= "color: #343148FF; text-shadow: none">
+                <p>
+                    {{ message }}
+                </p>
+            </div>
+        <p>
+            <button class="btn btn-lg btn-default" type="submit">submit</a>
+        </p>
+    </form>
+
+{% endblock %}
